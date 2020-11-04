@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  background-color: #C7DBE6;
+  font-family: 'Dosis', sans-serif;
+  color: #264653;
+  font-size: 20px;
+  line-height: 2px
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  color: #264653;
+  font-size: 40px;
+  line-height: 10px
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #5798B2;
+  font-size: 30px;
+  line-height: 10px
+}
+
+p{
+  line-height: 20px;
+  margin: 30px;
+}
+
+.social-network-btn {
+  text-decoration: none;
+  color: #264653;
+  transition: 0.5s;
+}
+
+
+.social-network-btn:hover {
+  color: #E9C46A;
+}
+
+#contact-btn {
+  text-decoration: none;
+  background-color: #264653;
+  color: white;
+  padding: 30px 40px;
+  background-origin: 4px;
+  border-radius: 4px;
+  transition: 0.5s;
+  display: inline-block;
+  margin: 10px;
+}
+
+#contact-btn:hover {
+  background-color: #E9C46A;
+}
+
+.container {
+  width: 75%;
+  margin: 40px auto;
+}
+
+.card {
+  background:white;
+  border: 1px solid grey;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+}
+
+ul li {
+  display: inline;
+  padding: 30px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
